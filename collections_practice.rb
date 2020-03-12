@@ -37,7 +37,7 @@ def sum_array(array_of_i)
 end
 
 def add_s(arr_of_str)
-  arr_of_str.each_with_index.collect do |ele|
+  arr_of_str.each.collect do |ele|
     if ele != arr_of_str[1]
      ele.insert(-1, "s")
    else
