@@ -41,7 +41,7 @@ def add_s(arr_of_str)
     if ele != arr_of_str[1]
      ele.insert(-1, "s")
    else
-     ele.collect
+     
     end
   end
 end
