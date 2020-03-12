@@ -37,6 +37,8 @@ def sum_array(array_of_i)
 end
 
 def add_s(arr_of_str)
-  arr_of_str.inject { |x| x == "feet"  }. collect { |x| x.insert(-1, "s")  }
+  arr_of_str.map { |i| i.insert(-1, "s") unless i == "feet"
+
+  end}
 end
   #binding.pry
