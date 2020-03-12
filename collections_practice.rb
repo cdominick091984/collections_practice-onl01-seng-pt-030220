@@ -37,6 +37,6 @@ def sum_array(array_of_i)
 end
 
 def add_s(arr_of_str)
-
+  arr_of_str.each_with_index.collect { |ele, index| ele[index] = "s"  }
 end
   #binding.pry
