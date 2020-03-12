@@ -32,7 +32,7 @@ def find_a(arr_of_str)
    arr_of_str.select { |e| e.start_with?("a")  }
 end
 
-def sum_array
-  
+def sum_array(array_of_i)
+
 end
   #binding.pry
