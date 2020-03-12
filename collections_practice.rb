@@ -37,6 +37,6 @@ def sum_array(array_of_i)
 end
 
 def add_s(arr_of_str)
-  arr_of_str.reject { |x| x == "feet"  }. collect { |x| x.insert(-1, "s")  }
+  arr_of_str.injext { |x| x == "feet"  }. collect { |x| x.insert(-1, "s")  }
 end
   #binding.pry
