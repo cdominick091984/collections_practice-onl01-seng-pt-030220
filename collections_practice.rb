@@ -40,6 +40,8 @@ def add_s(arr_of_str)
   arr_of_str.each_with_index.collect do |ele, index|
     if ele != arr_of_str[1]
      ele.insert(-1, "s")
+   else
+     ele.collect
     end
   end
 end
