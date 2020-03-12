@@ -31,4 +31,8 @@ end
 def find_a(arr_of_str)
    arr_of_str.select { |e| e.start_with?("a")  }
 end
+
+def sum_array
+  
+end
   #binding.pry
