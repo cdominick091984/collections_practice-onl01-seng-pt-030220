@@ -35,4 +35,8 @@ end
 def sum_array(array_of_i)
   array_of_i.inject(0) {|sum,x| sum + x }
 end
+
+def add_s
+  
+end
   #binding.pry
