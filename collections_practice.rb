@@ -33,6 +33,6 @@ def find_a(arr_of_str)
 end
 
 def sum_array(array_of_i)
-  sum_array.inject(0) { |sum, num| sum + num}
+  array_of_i.inject(0) {|sum,x| sum + x }
 end
   #binding.pry
