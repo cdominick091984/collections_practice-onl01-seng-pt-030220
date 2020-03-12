@@ -39,7 +39,7 @@ end
 def add_s(arr_of_str)
   arr_of_str.each_with_index.collect do |ele, index|
      ele.insert(-1, "s")
-   end
       unless ele == arr_of_str[1]
       end
+    end
 end
