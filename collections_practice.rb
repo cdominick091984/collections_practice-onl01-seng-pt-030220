@@ -39,5 +39,3 @@ end
 def add_s(arr_of_str)
   arr_of_str.each_with_index.collect { |ele, index| ele.insert(-1, "s") }
 end
-
-
