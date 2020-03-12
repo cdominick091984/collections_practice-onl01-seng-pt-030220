@@ -37,7 +37,7 @@ def sum_array(array_of_i)
 end
 
 def add_s(arr_of_str)
-  arr_of_str.map do |ele, index|
+  arr_of_str.map do |ele|
     ele.insert(-1, "s")
     ele
   end
